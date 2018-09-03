@@ -1,13 +1,13 @@
 body {
-    background-color: gainsboro;
-    background-image: url(/assets/images/img_bw_bubble_bg.jpg);
+    background-image: url(/Homework/Assignment3/Psychic-Game/assets/images/catlook.jpg);
+    background-size: 100%;
 }
 
 .wrapper {
     position: relative;
     top: 80px;
-    left: 150px;
-    width: 960px;
+    left: 350px;
+    width: 700px;
     margin: auto;
     font-family: 'Press Start 2P', cursive;
     font-size: 40px;
@@ -17,5 +17,5 @@ body {
     position: relative;
     top: 80px;
     font-size: 20px;
-    line-height: 2;
+    line-height: 2.5;
 }
