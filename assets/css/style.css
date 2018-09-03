@@ -19,7 +19,6 @@ body {
     font-size: 20px;
     line-height: 2.5;
 }
-
 @media screen and (max-width: 980px) {
     body {
         width: 100%;
@@ -55,3 +54,4 @@ body {
         font-weight: bold;
     }
 }
+
