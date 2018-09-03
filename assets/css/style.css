@@ -1,0 +1,21 @@
+body {
+    background-color: gainsboro;
+    background-image: url(/assets/images/img_bw_bubble_bg.jpg);
+}
+
+.wrapper {
+    position: relative;
+    top: 80px;
+    left: 150px;
+    width: 960px;
+    margin: auto;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 40px;
+}
+
+.container {
+    position: relative;
+    top: 80px;
+    font-size: 20px;
+    line-height: 2;
+}
