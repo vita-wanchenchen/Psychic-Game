@@ -1,5 +1,5 @@
 body {
-    background-image: url(/assets/images/catlook.jpg);
+    background-image: url(https://raw.githubusercontent.com/vita-wanchenchen/Psychic-Game/master/assets/images/catlook.jpg);
     background-size: 100%;
 }
 
@@ -18,4 +18,40 @@ body {
     top: 80px;
     font-size: 20px;
     line-height: 2.5;
+}
+
+@media screen and (max-width: 980px) {
+    body {
+        width: 100%;
+        background-size: 980px 728px;
+    }
+
+    .wrapper {
+        top: 40px;
+        left: 250px;
+        width: 450px;
+        line-height: 1.6;
+
+    }
+
+    .container {
+        top: 30px;
+        line-height: 3;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .wrapper {
+        left: 100px;
+        color: rgb(189, 73, 189);
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .wrapper {
+        left: 15px;
+        color: blue;
+        font-style: italic;
+        font-weight: bold;
+    }
 }
