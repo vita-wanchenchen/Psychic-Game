@@ -55,18 +55,24 @@ document.onkeyup = function(event) {
 // Determines which key was pressed.
     var userChoice = String.fromCharCode(event.keyCode).toLowerCase();
 
+    if (userChoice.search(/^[a-zA-Z]+$/) === -1) {
+        alert("Only characters");
+        return;
+      }
+
 guessedLetters.push(userChoice);
 updateGuessesLeft();
 updateGuessesSoFar();
 
 // This logic determines the outcome of the game.
 if (guessesLeft > 0) {
-    if (userChoice === computerChoice) {
-   wins++;
-   document.querySelector("#wins").innerHTML = "Wins: " + wins;
-   reset();}
 
-} else if (guessesLeft === 0) {
+    if (userChoice === computerChoice) {
+    wins++;
+    document.querySelector("#wins").innerHTML = "Wins: " + wins;
+    reset();}
+
+    } else if (guessesLeft === 0) {
     losses++;
     document.querySelector("#losses").innerHTML = "Losses: " + losses;
     reset();
